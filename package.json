@@ -1,0 +1,36 @@
+{
+  "name": "angular-weblineindia-text-box",
+  "version": "1.0.0",
+  "description": "A AngularJS based Text Box component used to specify an input field where the user can enter data.",
+  "author": "weblineindia",
+  "license": "MIT",
+  "repository": "https://github.com/weblineindia/AngularJS-Text-Box",
+  "homepage": "https://www.weblineindia.com/software-development-resources.html",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/angular-weblineindia-text-box.umd.js",
+  "module": "fesm5/angular-weblineindia-text-box.js",
+  "es2015": "fesm2015/angular-weblineindia-text-box.js",
+  "esm5": "esm5/angular-weblineindia-text-box.js",
+  "esm2015": "esm2015/angular-weblineindia-text-box.js",
+  "fesm5": "fesm5/angular-weblineindia-text-box.js",
+  "fesm2015": "fesm2015/angular-weblineindia-text-box.js",
+  "typings": "angular-weblineindia-text-box.d.ts",
+  "metadata": "angular-weblineindia-text-box.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "keywords": [
+    "angular-weblineindia-text-box",
+    "textbox",
+    "input",
+    "angular",
+    "angular-component",
+    "textbox-component",
+    "textarea",
+    "text-box-input"
+  ]
+}
