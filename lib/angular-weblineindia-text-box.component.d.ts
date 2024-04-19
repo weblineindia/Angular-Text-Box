@@ -18,8 +18,8 @@ export declare class AngularWeblineindiaTextBoxComponent {
     KeyDown: EventEmitter<KeyboardEvent>;
     KeyUp: EventEmitter<KeyboardEvent>;
     constructor();
-    onFocus(): void;
-    onBlur(): void;
+    onFocus(event: any): void;
+    onBlur(event: any): void;
     onChange(event: any): void;
     onKeyPress(event: KeyboardEvent): void;
     onKeyDown(event: KeyboardEvent): void;

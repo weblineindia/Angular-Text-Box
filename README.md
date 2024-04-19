@@ -51,10 +51,10 @@ Add in app.module.ts file
 
 ```typescript
 import { NgModule } from "@angular/core";
-import { TextModule } from "angular-weblineindia-text-box";
+import { AngularWeblineindiaTextBoxModule } from "angular-weblineindia-text-box";
 
 @NgModule({
-  imports: [TextModule],
+  imports: [AngularWeblineindiaTextBoxModule],
 })
 export class AppModule {}
 ```
@@ -65,9 +65,9 @@ Add in app.component.ts file
 export class AppComponent {
   myRegex: RegExp = /^[a-zA-Z0-9]+$/;
 
-  onFocusHandler(): void {}
+  onFocusHandler(event: any): void {}
 
-  onBlurHandler(): void {}
+  onBlurHandler(event: any): void {}
 
   onChangeHandler(event: any): void {
   }
@@ -85,7 +85,7 @@ export class AppComponent {
 Add in app.component.html file
 
 ```html
-<angular-weblineindia-text-box id="myInputId" name="myInputName" value="initial value" classname="my-custom-class" placeholder="Enter text here" [disabled]="false" [maxlength]="25" [regex]="myRegex" [isnumberonly]="false" [required]="true" (focus)="onFocusHandler()" (blur)="onBlurHandler()" (change)="onChangeHandler($event)" (KeyPress)="onKeyPressHandler($event)" (KeyDown)="onKeyDownHandler($event)" (KeyUp)="onKeyUpHandler($event)"></angular-weblineindia-text-box>
+<angular-weblineindia-text-box id="myInputId" name="myInputName" value="initial value" classname="my-custom-class" placeholder="Enter text here" [disabled]="false" [maxlength]="25" [regex]="myRegex" [isnumberonly]="false" [required]="true" (focus)="onFocusHandler($event)" (blur)="onBlurHandler($event)" (change)="onChangeHandler($event)" (KeyPress)="onKeyPressHandler($event)" (KeyDown)="onKeyDownHandler($event)" (KeyUp)="onKeyUpHandler($event)"></angular-weblineindia-text-box>
 ```
 
 Add in app.component.css file
